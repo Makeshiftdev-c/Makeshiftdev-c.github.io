@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(51, 48, 48);
+}
+
+/* Page Header Start */
+header img {
+    padding-top: 5px;
+    margin: 5px;
+}
+header {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 36, 36);
+}
+header ul {
+    text-align: center;
+    margin-top: -20px;
+}
+header li {
+    display: inline;
+}
+header a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    background-color: goldenrod;
+    text-decoration: none;
+    border: 1px solid goldenrod;
+    border-radius: 20%;
+}
+#me {
+    float: right;
+}
+/* Page Header End */
