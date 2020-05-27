@@ -5,16 +5,22 @@ body {
 /* Page Header Start */
 header img {
     padding-top: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 header {
     margin: 0;
     padding: 0;
     background-color: rgb(37, 36, 36);
+    text-align:center;
+}
+header h1 {
+    display: inline-block;
+    font-family: 'Tangerine', cursive;
 }
 header ul {
     text-align: center;
-    margin-top: -20px;
+    margin-top: 0;
+    padding-bottom: 5px;
 }
 header li {
     display: inline;
@@ -26,10 +32,25 @@ header a {
     padding: 5px 15px 5px 15px;
     background-color: goldenrod;
     text-decoration: none;
-    border: 1px solid goldenrod;
-    border-radius: 20%;
+    border-radius: 10%;
+}
+header a:hover {
+    text-shadow: 1px 1px 1px purple;
+    background-color: yellowgreen;
+}
+header a:active {
+    text-shadow: 1px 1px 1px red;
+    background-color: purple;
+}
+header a:focus {
+    text-shadow: none;
+    color: green;
+    background-color: yellow;
 }
 #me {
     float: right;
+}
+#logo {
+    float: left;
 }
 /* Page Header End */
