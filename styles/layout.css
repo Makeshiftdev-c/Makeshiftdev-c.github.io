@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 body {
     background-color: rgb(51, 48, 48);
 }
@@ -12,6 +14,8 @@ header {
     justify-content: space-between;
     -webkit-transition: all 2s ease 0s;
     -moz-transition: all 2s ease 0s;
+    -ms-transition: all 2s ease 0s;
+    -o-transition: all 2s ease 0s;
     transition: all 2s ease 0s;
 }
 header img {
@@ -48,6 +52,8 @@ header a {
     border-radius: 10%;
     -webkit-transition: all 1s ease-in 1s;
     -moz-transition: all 1s ease-in 1s;
+    -ms-transition: all 1s ease-in 1s;
+    -o-transition: all 1s ease-in 1s;
     transition: all 1s ease-in 1s;
     overflow: hidden;
 }
@@ -55,6 +61,8 @@ header a:hover {
     text-shadow: 1px 1px 1px purple;
     -webkit-transition: background-color 0.5s ease-in;
     -moz-transition: background-color 0.5s ease-in;
+    -ms-transition: background-color 0.5s ease-in;
+    -o-transition: background-color 0.5s ease-in;
     transition: background-color 0.5s ease-in;
     background-color: yellowgreen;
 }
