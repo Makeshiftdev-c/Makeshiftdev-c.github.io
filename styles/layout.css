@@ -6,17 +6,17 @@ body {
 
 /* Page Header Start */
 header {
+    -webkit-transition: all 2s ease 1s;
+    -moz-transition: all 2s ease 1s;
+    -ms-transition: all 2s ease 1s;
+    -o-transition: all 2s ease 1s;
+    transition: all 2s ease 1s;
     margin: 0;
     padding: 0;
     background-color: rgb(37, 36, 36);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    -webkit-transition: all 2s ease 0s;
-    -moz-transition: all 2s ease 0s;
-    -ms-transition: all 2s ease 0s;
-    -o-transition: all 2s ease 0s;
-    transition: all 2s ease 0s;
 }
 header img {
     padding: 15px;
@@ -27,6 +27,7 @@ header h1 {
     display: block;
     text-align: center;
     font-family: 'Tangerine', cursive;
+    text-shadow: 2px 1px yellow;
 }
 header ul {
     text-align: center;
@@ -42,6 +43,11 @@ header li {
     
 }
 header a {
+    -webkit-transition: all 1s ease-in 1000ms;
+    -moz-transition: all 1s ease-in 1s;
+    -ms-transition: all 1s ease-in 1s;
+    -o-transition: all 1s ease-in 1s;
+    transition: all 1s ease-in 1000ms;
     color: black;
     height: auto;
     display: inline-block;
@@ -50,11 +56,6 @@ header a {
     background-color: goldenrod;
     text-decoration: none;
     border-radius: 10%;
-    -webkit-transition: all 1s ease-in 1s;
-    -moz-transition: all 1s ease-in 1s;
-    -ms-transition: all 1s ease-in 1s;
-    -o-transition: all 1s ease-in 1s;
-    transition: all 1s ease-in 1s;
     overflow: hidden;
 }
 header a:hover {
