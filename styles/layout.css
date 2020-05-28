@@ -2,6 +2,10 @@
 
 body {
     background-color: rgb(51, 48, 48);
+    background-image: url(../images/circles.svg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 /* Page Header Start */
