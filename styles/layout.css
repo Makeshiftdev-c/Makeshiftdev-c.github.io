@@ -3,54 +3,62 @@ body {
 }
 
 /* Page Header Start */
-header img {
-    padding-top: 5px;
-    margin: 10px;
-}
 header {
     margin: 0;
     padding: 0;
     background-color: rgb(37, 36, 36);
-    text-align:center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 2s ease 0s;
+}
+header img {
+    padding: 15px;
+    margin: 15px;
+    overflow: hidden;
 }
 header h1 {
-    display: inline-block;
+    display: block;
+    text-align: center;
     font-family: 'Tangerine', cursive;
 }
 header ul {
     text-align: center;
-    margin-top: 0;
-    padding-bottom: 5px;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
 }
 header li {
     display: inline;
+    padding: 0;
+    margin: 0 5px;
+    margin-bottom: 15px;
+    
 }
 header a {
     color: black;
+    height: auto;
     display: inline-block;
     text-decoration: none;
     padding: 5px 15px 5px 15px;
     background-color: goldenrod;
     text-decoration: none;
     border-radius: 10%;
+    transition: all 1s ease-in 1s;
+    overflow: hidden;
 }
 header a:hover {
     text-shadow: 1px 1px 1px purple;
+    transition: background-color 0.5s ease-in;
     background-color: yellowgreen;
 }
 header a:active {
     text-shadow: 1px 1px 1px red;
     background-color: purple;
 }
-header a:focus {
-    text-shadow: none;
-    color: green;
+.current {
+    text-shadow: 1px 1px 1px purple;
     background-color: yellow;
-}
-#me {
-    float: right;
-}
-#logo {
-    float: left;
+    transition: all 2s ease 0s;
 }
 /* Page Header End */
