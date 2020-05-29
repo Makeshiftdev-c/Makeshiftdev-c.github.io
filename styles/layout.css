@@ -25,13 +25,26 @@ header {
 header img {
     padding: 15px;
     margin: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
     overflow: hidden;
+}
+header a {
+    padding: 0;
+    margin: 0;
 }
 header h1 {
     display: block;
     text-align: center;
     font-family: 'Tangerine', cursive;
     text-shadow: 2px 1px yellow;
+    cursor: default;
+}
+header h1::selection {
+  background-color: inherit;
+}
+header h1::-moz-selection {
+  background-color: inherit;
 }
 header ul {
     text-align: center;
@@ -46,7 +59,7 @@ header li {
     margin-bottom: 15px;
     
 }
-header a {
+#bannerandnav a {
     -webkit-transition: all 1s ease-in 1000ms;
     -moz-transition: all 1s ease-in 1s;
     -ms-transition: all 1s ease-in 1s;
@@ -62,21 +75,22 @@ header a {
     border-radius: 10%;
     overflow: hidden;
 }
-header a:hover {
-    text-shadow: 1px 1px 1px purple;
-    -webkit-transition: background-color 0.5s ease-in;
-    -moz-transition: background-color 0.5s ease-in;
-    -ms-transition: background-color 0.5s ease-in;
-    -o-transition: background-color 0.5s ease-in;
-    transition: background-color 0.5s ease-in;
-    background-color: yellowgreen;
+#bannerandnav a:hover {
+    /*text-shadow: 1px 1px 1px red;*/
+    color: white;
+    -webkit-transition: color 0s ease-out 0s;
+    -moz-transition: color 0s ease-out 0s;
+    -ms-transition: color 0s ease-out 0s;
+    -o-transition: color 0s ease-out 0s;
+    transition: color 0s ease-out 0s;
+    background-color: purple;
 }
-header a:active {
+#bannerandnav a:active {
     text-shadow: 1px 1px 1px red;
     background-color: purple;
 }
-.current {
-    text-shadow: 1px 1px 1px purple;
-    background-color: yellow;
+#bannerandnav .current {
+    color: yellow;
+    background-color: purple;
 }
 /* Page Header End */
