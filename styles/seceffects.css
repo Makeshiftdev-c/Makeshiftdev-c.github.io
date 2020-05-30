@@ -2,7 +2,7 @@
 html {
     height: 100%;
     overflow: hidden;
-    overflow-y: auto;
+    overflow-y: visible;
 }
 body {
     height: 100%;
@@ -11,6 +11,7 @@ body {
     display: block;
     background-image: url(../images/circle.svg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: 50% 50%;
     background-size: contain;
     margin-bottom: -30px;
