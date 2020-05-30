@@ -11,7 +11,6 @@ body {
     display: block;
     background-image: url(../images/circle.svg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: 50% 50%;
     background-size: contain;
     margin-bottom: -30px;
