@@ -2,6 +2,7 @@
 html {
     height: 100%;
     overflow: hidden;
+    overflow-y: auto;
 }
 body {
     height: 100%;
@@ -17,7 +18,7 @@ body {
     width: 100%;
 }
 .background:hover {
-    background-image: none;
+    background-image: url(../images/transcircle.svg);
 }
 /* End of image setup */
 
@@ -107,11 +108,11 @@ body {
 
 /* Start of delayed fade in effect */
 .delayed-fade-in {
-    animation: dfadeIn 15s linear 0s;
-    -webkit-animation: dfadeIn 15s linear 0s;
-    -moz-animation: dfadeIn 15s ease-in 0s;
-    -ms-animation: dfadeIn 15s ease-in 0s;
-    -o-animation: dfadeIn 15s ease-in 0s;
+    animation: dfadeIn 13s linear 0s;
+    -webkit-animation: dfadeIn 13s linear 0s;
+    -moz-animation: dfadeIn 13s ease-in 0s;
+    -ms-animation: dfadeIn 13s ease-in 0s;
+    -o-animation: dfadeIn 13s ease-in 0s;
 }
 
 @keyframes dfadeIn {
@@ -132,12 +133,24 @@ body {
     0% {
         opacity: 0;
     }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
 }
 @-moz-keyframes dfadeIn {
     0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
         opacity: 0;
     }
     100% {
@@ -148,12 +161,24 @@ body {
     0% {
         opacity: 0;
     }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
     100% {
         opacity: 1;
     }
 }
 @-o-keyframes dfadeIn {
     0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
         opacity: 0;
     }
     100% {
