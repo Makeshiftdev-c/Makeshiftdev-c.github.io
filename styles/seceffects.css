@@ -1,3 +1,4 @@
+/* Background image setup */
 html {
     height: 100%;
     overflow: hidden;
@@ -18,44 +19,93 @@ body {
 .background:hover {
     background-image: none;
 }
-.image {
+/* End of image setup */
+
+/* Right spin effect */
+.spin-right {
     position: absolute;
-    animation: spin 5s ease-out 0s;
-    -webkit-animation: spin 5s ease-out 0s;
-    -moz-animation: spin 5s linear 0s;
+    animation: spinright 5s ease-out 0s;
+    -webkit-animation: spinright 5s ease-out 0s;
+    -moz-animation: spinright 5s ease-out 0s;
+    -ms-animation: spinright 5s ease-out 0s;
+    -o-animation: spinright 5s ease-out 0s;
 
 }
-@keyframes spin {
+@keyframes spinright {
     100% {
         transform: rotate(360deg);
         transform: rotate(360deg);
     }
 }
-@-moz-keyframes spin {
+@-moz-keyframes spinright {
     100% {
         -moz-transform: rotate(360deg);
         -moz-transform: rotate(360deg);
     }
 }
-@-webkit-keyframes spin {
+@-webkit-keyframes spinright {
     100% {
         -webkit-transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
     }
 }
-@-ms-keyframes spin {
+@-ms-keyframes spinright {
     100% {
         -ms-transform: rotate(360deg);
         -ms-transform: rotate(360deg);
     }
 }
-@-o-keyframes spin {
+@-o-keyframes spinright {
     100% {
         -o-transform: rotate(360deg);
         -o-transform: rotate(360deg);
     }
 }
+/* End of right spin effect */
 
+/* Left spin effect */
+.spin-left {
+    position: absolute;
+    animation: spinleft 5s ease-out 0s;
+    -webkit-animation: spinleft 5s ease-out 0s;
+    -moz-animation: spinleft 5s ease-out 0s;
+    -ms-animation: spinleft 5s ease-out 0s;
+    -o-animation: spinleft 5s ease-out 0s;
+
+}
+@keyframes spinleft {
+    100% {
+        transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
+@-moz-keyframes spinleft {
+    100% {
+        -moz-transform: rotate(-360deg);
+        -moz-transform: rotate(-360deg);
+    }
+}
+@-webkit-keyframes spinleft {
+    100% {
+        -webkit-transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+    }
+}
+@-ms-keyframes spinleft {
+    100% {
+        -ms-transform: rotate(-360deg);
+        -ms-transform: rotate(-360deg);
+    }
+}
+@-o-keyframes spinleft {
+    100% {
+        -o-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+    }
+}
+/* End of left spin effect */
+
+/* Start of delayed fade in effect */
 .delayed-fade-in {
     animation: dfadeIn 15s linear 0s;
     -webkit-animation: dfadeIn 15s linear 0s;
@@ -110,3 +160,4 @@ body {
         opacity: 1;
     }
 }
+/* End of delayed fade in effect */
