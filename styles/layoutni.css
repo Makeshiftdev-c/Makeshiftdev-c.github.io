@@ -1,22 +1,9 @@
 body {
     background-color: rgb(51, 48, 48);
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-}
-section {
-    max-width: 900px;
-    letter-spacing: 0.2;
-    margin: 0 auto;
-    text-align: center;
-}
-h2 {
-    /*text-decoration: underline;*/
-    display: block;
-    font-size: 2rem;
-    border: none;
-    border-bottom: 2px solid #f50000;
-    padding: 0;
-    margin: 20px;
+    background-image: url(../images/circles.svg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-attachment: fixed;
 }
 :focus {
     outline: none;
@@ -41,8 +28,6 @@ header img {
 header a {
     padding: 0;
     margin: 0;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    -moz-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 header a::-moz-selection {
     -moz-user-select: none;
