@@ -1,0 +1,32 @@
+/* start of page layout */
+html {
+    height: 100%;
+    min-width: 267px;
+    overflow: hidden;
+    overflow-y: visible;
+}
+body {
+    height: 100%;
+    min-width: 267px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main {
+    display: flex;
+}
+.sidebar1 {
+    flex: 1;
+    order: 1;
+} 
+.content {
+    flex: 4;
+    order: 2;
+}
+.sidebar2 {
+    flex: 1;
+    order: 3;
+}
+/* end of page layou */
