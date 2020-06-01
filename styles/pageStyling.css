@@ -46,7 +46,7 @@ header li {
     margin: 0 5px;
 }
 #bannerandnav a {
-    color: black;
+    color: purple;
     height: auto;
     display: inline-block;
     text-decoration: none;
@@ -55,6 +55,10 @@ header li {
     text-decoration: none;
     border-radius: 10%;
     overflow: hidden;
+}
+#bannerandnav a:hover {
+    color: yellow;
+    background-color: purple;
 }
 #bannerandnav a:active {
     text-shadow: 1px 1px 1px red;
