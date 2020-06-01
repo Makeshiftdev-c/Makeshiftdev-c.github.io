@@ -1,4 +1,4 @@
 Profile Website
 ---
-permalink: /index.html
----
+
+Content will follow design completion.
