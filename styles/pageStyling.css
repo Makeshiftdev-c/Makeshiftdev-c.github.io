@@ -63,14 +63,15 @@ body {
     background-color: rgb(51, 48, 48);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../images/circle.svg), url(../images/scircle.png);
-    background-position: 50% 50%;
-    background-repeat: repeat-x;
+    background-image: url(../images/circle.svg), url(../images/scircle.png), url(../images/smoke.svg);
     background-size: contain;
+    background-position: -60% 50%, -60% 50%, 120% 50%;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 body:hover {
-    background-image: url(../images/transcircle.svg);
+    background-image: url(../images/transcircle.svg), url(../images/smoke.svg);
+    background-position: -60% 50%, 120% 50%;
 }
 .content {
     letter-spacing: 0.2;
