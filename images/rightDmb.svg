@@ -16,20 +16,20 @@
    version="1.1"
    id="SVGRoot"
    inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
-   sodipodi:docname="leftBtn.svg">
+   sodipodi:docname="rightDmb.svg">
   <defs
      id="defs18">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient974">
+       id="linearGradient1040-3">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:#070007;stop-opacity:1;"
          offset="0"
-         id="stop970" />
+         id="stop1036" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:#070007;stop-opacity:0;"
          offset="1"
-         id="stop972" />
+         id="stop1038" />
     </linearGradient>
     <marker
        inkscape:stockid="Arrow2Lend"
@@ -111,7 +111,7 @@
        inkscape:isstock="true">
       <path
          id="path867"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ccc600;stroke-opacity:1;fill:#070007;fill-opacity:1"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
          transform="scale(1.1) rotate(180) translate(1,0)" />
     </marker>
@@ -174,12 +174,12 @@
     </marker>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient974"
-       id="linearGradient976"
-       x1="1.0365565"
-       y1="15.943788"
+       xlink:href="#linearGradient1040-3"
+       id="linearGradient1042"
+       x1="1.0365566"
+       y1="15.862756"
        x2="30.25999"
-       y2="15.943788"
+       y2="15.862756"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
@@ -217,7 +217,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -226,8 +226,8 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:url(#linearGradient976);stroke:#ff0000;stroke-width:2.3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:45;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend);fill-opacity:1"
-       d="m 4.8814759,15.903272 h -2e-6"
+       style="fill:url(#linearGradient1042);stroke:#ccc600;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:45;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend);fill-opacity:1"
+       d="m 26.415071,15.903272 h 2e-6"
        id="path4414"
        inkscape:connector-curvature="0" />
   </g>

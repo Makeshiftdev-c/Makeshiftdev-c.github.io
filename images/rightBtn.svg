@@ -21,15 +21,15 @@
      id="defs18">
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient1040-3">
+       id="linearGradient1236">
       <stop
-         style="stop-color:#070007;stop-opacity:1;"
+         style="stop-color:#0b0000;stop-opacity:1;"
          offset="0"
-         id="stop1036" />
+         id="stop1232" />
       <stop
-         style="stop-color:#070007;stop-opacity:0;"
+         style="stop-color:#0b0000;stop-opacity:0;"
          offset="1"
-         id="stop1038" />
+         id="stop1234" />
     </linearGradient>
     <marker
        inkscape:stockid="Arrow2Lend"
@@ -111,7 +111,7 @@
        inkscape:isstock="true">
       <path
          id="path867"
-         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ccc600;stroke-opacity:1;fill:#070007;fill-opacity:1"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#ff0000;stroke-opacity:1;fill:#0b0000;fill-opacity:1"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
          transform="scale(1.1) rotate(180) translate(1,0)" />
     </marker>
@@ -174,8 +174,8 @@
     </marker>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1040-3"
-       id="linearGradient1042"
+       xlink:href="#linearGradient1236"
+       id="linearGradient1238"
        x1="1.0365566"
        y1="15.862756"
        x2="30.25999"
@@ -226,7 +226,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:url(#linearGradient1042);stroke:#ccc600;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:45;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend);fill-opacity:1"
+       style="fill:url(#linearGradient1238);stroke:#ff0000;stroke-width:2.29999995;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:45;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend);fill-opacity:1"
        d="m 26.415071,15.903272 h 2e-6"
        id="path4414"
        inkscape:connector-curvature="0" />
