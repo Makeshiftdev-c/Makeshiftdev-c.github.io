@@ -2,14 +2,27 @@
 header {
     margin: 0;
     padding: 0;
-    background-color: rgb(37, 36, 36);
+    /*background-color: rgb(37, 36, 36);*/
+    background: transparent;
 }
 header img {
-    padding: 15px;
+    padding: 10px;
     margin: 15px;
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
     overflow: hidden;
+    border-radius: 50%;
+}
+header img:hover {
+    background-color: rgb(37, 36, 36);
+    border: 1px solid purple;
+    box-shadow: 0px 0px 3px yellow;
+}
+#logo:hover {
+    margin-left: 13px;
+}
+#me:hover {
+    margin-right: 13px;
 }
 header a {
     padding: 0;
@@ -37,6 +50,7 @@ header li {
     color: black;
     height: auto;
     display: inline-block;
+    width: 96px;
     text-decoration: none;
     padding: 5px 15px 5px 15px;
     background-color: goldenrod;

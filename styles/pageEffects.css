@@ -98,56 +98,6 @@
 }
 /* End of 3s Fade-In Effect */
 
-  /* Start of 3s Background Fade-In Effect */
-  .back-fade-in {
-    animation: backFadeIn ease-in 3s;
-    -webkit-animation: backFadeIn ease-in 3s;
-    -moz-animation: backFadeIn ease-in 3s;
-    -o-animation: backFadeIn ease-in 3s;
-    -ms-animation: backFadeIn ease-in 3s;
-  }
-  @keyframes backFadeIn {
-    0% {
-      background-color: rgba(255, 255, 255, 0.0);
-    }
-    100% {
-      background-color: rgb(37, 36, 36);
-    }
-  }
-  @-moz-keyframes backFadeIn {
-    0% {
-      background-color: rgba(255, 255, 255, 0.0);
-    }
-    100% {
-      background-color: rgb(37, 36, 36);
-    }
-  }
-  @-webkit-keyframes backFadeIn {
-    0% {
-      background-color: rgba(255, 255, 255, 0.0);
-    }
-    100% {
-      background-color: rgb(37, 36, 36);
-    }
-  }
-  @-o-keyframes backFadeIn {
-    0% {
-      background-color: rgba(255, 255, 255, 0.0);
-    }
-    100% {
-      background-color: rgb(37, 36, 36);
-    }
-  }
-  @-ms-keyframes backFadeIn {
-    0% {
-      background-color: rgba(255, 255, 255, 0.0);
-    }
-    100% {
-      background-color: rgb(37, 36, 36);
-    }
-  }
-  /* End of 3s Background Fade-In Effect */
-
   /* Start of Button Color Change Effect */
   .color-invert-in {
     animation: invertIn ease-in 3s;
