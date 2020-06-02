@@ -58,7 +58,7 @@ header li {
 /* Page Header End */
 
 
-/* Page Main content Start */
+/* Page Main Content Start */
 body {
     background-color: rgb(51, 48, 48);
     color: white;
@@ -202,13 +202,17 @@ button:focus {
 .buttonbar:hover {
     opacity: 0;
 }
-/* Page Main Content End */
+/* Page Content End */
 
 /* Page Footer Start */
 footer {
     margin: 10px;
     margin-top: 50px;
     text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 small {
     margin: 10px;
@@ -225,3 +229,4 @@ small:hover {
     box-shadow: 0px 0px 6px yellow;
     cursor: default;
 }
+/* Page Footer End */

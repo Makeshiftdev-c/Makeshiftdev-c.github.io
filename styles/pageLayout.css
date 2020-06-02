@@ -1,13 +1,8 @@
 /* start of page layout */
 html {
     height: 100%;
-    min-width: 267px;
-    overflow: hidden;
-    overflow-y: visible;
-}
-body {
-    height: 100%;
-    min-width: 267px;
+    /*min-width: 267px;*/
+    overflow: auto;
 }
 header {
     display: flex;
@@ -45,4 +40,4 @@ main {
     flex: 1;
     order: 3;
 }
-/* end of page layou */
+/* end of page layout */
