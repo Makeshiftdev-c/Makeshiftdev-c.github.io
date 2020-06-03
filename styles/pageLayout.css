@@ -9,11 +9,16 @@ header {
     /*align-items: center;*/
     /*justify-content: space-between;*/
 }
-header img {
+.left {
     flex: 1;
+    text-align: left;
 }
 #bannerandnav {
+    flex: 4;
+}
+.right {
     flex: 1;
+    text-align: right;
 }
 main {
     display: flex;

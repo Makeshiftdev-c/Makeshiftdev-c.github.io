@@ -5,24 +5,29 @@ header {
     /*background-color: rgb(37, 36, 36);*/
     background: transparent;
 }
+#bannerandnav {
+    background-color: rgb(37, 36, 36);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    box-shadow: 0px 0px 10px red;
+}
+#bannerandnav:hover {
+    transition: box-shadow 2s ease;
+    box-shadow: 0px 0px 10px yellow;
+}
 header img {
-    padding: 10px;
+    padding: 0;
     margin: 15px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 0;
     overflow: hidden;
     border-radius: 50%;
+    /*box-shadow: 0px 0px 10px red;*/
 }
 header img:hover {
+    transition: box-shadow 2s ease;
     background-color: rgb(37, 36, 36);
-    border: 1px solid purple;
-    box-shadow: 0px 0px 3px yellow;
-}
-#logo:hover {
-    margin-left: 13px;
-}
-#me:hover {
-    margin-right: 13px;
+    box-shadow: 0px 0px 10px 2px yellow;
 }
 header a {
     padding: 0;
@@ -54,8 +59,7 @@ header li {
     text-decoration: none;
     padding: 5px 15px 5px 15px;
     background-color: goldenrod;
-    border-radius: 10%;
-    overflow: hidden;
+    border-radius: 20px;
 }
 #bannerandnav a:hover {
     color: yellow;
@@ -235,13 +239,16 @@ small {
     padding: 50px;
     padding-top: 0px;
     padding-bottom: 0px;
-    background-color: purple;
+    background-color: rgb(37, 36, 36);
     color: yellow;
-    border-radius: 50%;
-    box-shadow: 0px 0px 3px yellow;
+    border-radius: 20px;
+    border: 1px solid red;
+    /*box-shadow: 0px 0px 10px red;*/
 }
 small:hover {
-    box-shadow: 0px 0px 6px yellow;
+    border: 1px solid yellow;
+    color: white;
+    /*box-shadow: 0px 0px 10px yellow;*/
     cursor: default;
 }
 /* Page Footer End */
