@@ -1,7 +1,7 @@
 /* start of page layout */
 html, body {
     height: 100%;
-    min-width: 560px;
+    min-width: 850px;
     overflow: auto;
 }
 header {
@@ -50,5 +50,11 @@ main {
 .sidebar2 {
     flex: 1;
     order: 3;
+}
+.topics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align: center;
 }
 /* end of page layout */

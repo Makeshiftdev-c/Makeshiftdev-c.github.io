@@ -7,7 +7,7 @@ const nextBtn = document.querySelector('#nextBtn');
 let counter = 1;
 const size = allImages[1].clientWidth;
 
-imageSlider.style.transform = 'translateX(' + (-size * counter) + 'px)';
+imageSlider.style.transform = 'translateX(' + (-150) + 'px)';
 
 nextBtn.addEventListener('click', () => {
     if (counter >= allImages.length - 1)
