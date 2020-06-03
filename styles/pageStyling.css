@@ -81,15 +81,11 @@ body {
     background-color: rgb(51, 48, 48);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../images/circle.svg), url(../images/scircle.png), url(../images/smoke.svg);
+    background-image: url(../images/circle.svg), url(../images/smoke.svg);
     background-size: auto;
-    background-position: -33vw 0vh, -33vw 0vh, 65vw 0vh;
+    background-position: -33vw 0vh, 65vw 0vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-body:hover {
-    background-image: url(../images/transcircle.svg), url(../images/smoke.svg);
-    background-position: -33vw 0vh, 65vw 0vh;
 }
 .content {
     letter-spacing: 1.2;
@@ -278,6 +274,18 @@ button:focus {
     font-size: 10px;
     margin: 10px 0 0;
     padding: 0;
+}
+.holder {
+    margin-top: 40vh;
+    margin-left: 20px;
+    position: fixed;
+}
+.holder img {
+    transform: scale(1);
+    transition: transform 1s;
+}
+.holder:hover img {
+    transform: scale(2);
 }
 /* Page Content End */
 
