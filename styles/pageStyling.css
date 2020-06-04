@@ -81,8 +81,8 @@ body {
     background-color: rgb(51, 48, 48);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../images/circle.svg), url(../images/smoke.svg);
-    background-size: auto;
+    background-image: url(../images/transcircle.svg), url(../images/smoke.svg);
+    background-size: 100vh, auto;
     background-position: -33vw 0vh, 65vw 0vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -279,13 +279,19 @@ button:focus {
     margin-top: 40vh;
     margin-left: 20px;
     position: fixed;
+    transform: rotate(0deg);
+    transition: 1s;
 }
-.holder img {
-    transform: scale(1);
-    transition: transform 1s;
+.holder:hover {
+    transform: rotate(360deg);
 }
-.holder:hover img {
-    transform: scale(2);
+#start {
+    position: absolute;
+    transform: scaleY(1);
+}
+#stop {
+    position: relative;
+    transform: scaleX(0);
 }
 /* Page Content End */
 
