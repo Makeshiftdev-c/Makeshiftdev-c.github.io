@@ -222,7 +222,7 @@ button:focus {
 }
 .topics .box {
     position: relative;
-    margin: 0 auto 20px;
+    margin: 20px auto;
     height: 170px;
     width: 250px;
     box-sizing: border-box;
