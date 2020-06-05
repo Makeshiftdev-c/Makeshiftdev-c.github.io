@@ -7,7 +7,7 @@ let state = 'nospin';
 spinBtn.addEventListener('click', () => {
     if (state === 'nospin') {
         document.body.style.transition = 'background-image 1s ease-in';
-        document.body.style.backgroundImage = "url('images/scircle.png'), url('images/smoke.svg')";
+        document.body.style.backgroundImage = "url('images/graphics/scircle.png'), url('images/graphics/smoke.svg')";
         spinIcn.style.transition = 'transform 1s';
         spinIcn.style.transform = 'scaleY(0)';
         stopIcn.style.transition = 'transform 1s';
@@ -16,7 +16,7 @@ spinBtn.addEventListener('click', () => {
     }
     else {
         document.body.style.transition = 'background-image 1s ease-out';
-        document.body.style.backgroundImage = "url('images/transcircle.svg'), url('images/smoke.svg')";
+        document.body.style.backgroundImage = "url('images/graphics/transcircle.svg'), url('images/graphics/smoke.svg')";
         spinIcn.style.transition = 'transform 1s';
         spinIcn.style.transform = 'scaleY(1)';
         stopIcn.style.transition = 'transform 1s';

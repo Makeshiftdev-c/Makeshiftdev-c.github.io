@@ -81,7 +81,7 @@ body {
     background-color: rgb(51, 48, 48);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../images/transcircle.svg), url(../images/smoke.svg);
+    background-image: url(../images/graphics/transcircle.svg), url(../images/graphics/smoke.svg);
     background-size: 100vh, auto;
     background-position: -33vw 0vh, 65vw 0vh;
     background-repeat: no-repeat;
@@ -167,134 +167,6 @@ p {
 }
 a:focus {
     outline: none;
-}
-.imageslider {
-    margin-top: 98px;
-    padding: 15px;
-    padding-top: 0;
-}
-.container {
-    width: 150px;
-    height: 150px;
-    margin: 5px;
-    border: 2px solid red;
-    border-color: inherit;
-    overflow: hidden;
-}
-.slider {
-    width: 100%;
-    height: 100%;
-}
-.slider img {
-    width: 100%;
-    height: 100%;
-}
-.button {
-    margin: 5px;
-    padding: 0;
-    height: 32px;
-    width: 32px;
-    border: 0;
-    background: transparent;
-}
-.button:hover {
-    cursor: pointer;
-}
-button:focus {
-    outline: none;
-}
-.imageslider {
-    border-color: red;
-}
-.imageslider:hover {
-    border-color: yellow;
-}
-.buttonbar {
-    margin-top: -42px;
-    position: relative;
-}
-.buttonbar:hover {
-    opacity: 0;
-}
-.topics {
-    max-width: 952px;
-    margin: 50px auto;
-}
-.topics .box {
-    position: relative;
-    margin: 20px auto;
-    height: 170px;
-    width: 250px;
-    box-sizing: border-box;
-    display: inline-block;
-    box-shadow: 0px 0px 10px red;
-    transition: box-shadow 0.5s;
-    overflow: hidden;
-}
-.topics .box:hover {
-    box-shadow: 0px 0px 15px yellow;
-}
-.topics .box .imgBox {
-    position: relative;
-    overflow: hidden;
-}
-.topics .box .imgBox img {
-    position: relative;
-    right: 100px;
-    transition: transform 2s;
-}
-.topics .box:hover .imgBox img {
-    transform: scale(1.2);
-}
-.topics .box .details {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 10px;
-    right: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    transform: scaleX(0);
-    transition: transform 0.5s;
-}
-.topics .box:hover .details {
-    transform: scaleX(1);
-}
-.topics .box .details .topicontent {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding: 10px;
-}
-.topics .box .details .topicontent h2 {
-    margin: 0;
-    padding: 0;
-    font-size: 10px;
-}
-.topics .box .details .topicontent p {
-    font-size: 10px;
-    margin: 10px 0 0;
-    letter-spacing: 0.05em;
-    line-height: 1.5;
-    padding: 0;
-}
-.holder {
-    margin-top: 40vh;
-    margin-left: 20px;
-    position: fixed;
-    transform: rotate(0deg);
-    transition: 1s;
-}
-.holder:hover {
-    transform: rotate(360deg);
-}
-#start {
-    position: absolute;
-    transform: scaleY(1);
-}
-#stop {
-    position: relative;
-    transform: scaleX(0);
 }
 /* Page Content End */
 
