@@ -50,8 +50,8 @@
 
 /* Start of 3s Fade-In Effect */
 .fade-in {
-  animation: fadeIn ease-in 3s;
-  -webkit-animation: fadeIn ease-in 3s;
+  animation: fadeIn ease-in 1s;
+  -webkit-animation: fadeIn ease-in 1s;
   -moz-animation: fadeIn ease-in 3s;
   -o-animation: fadeIn ease-in 3s;
   -ms-animation: fadeIn ease-in 3s;

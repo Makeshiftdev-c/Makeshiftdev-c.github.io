@@ -12,7 +12,7 @@ header {
     box-shadow: 0px 0px 10px red;
 }
 #bannerandnav:hover {
-    transition: box-shadow 2s ease;
+    /*transition: box-shadow 2s ease;*/
     box-shadow: 0px 0px 10px yellow;
 }
 header img {
@@ -21,8 +21,10 @@ header img {
     margin-top: 10px;
     margin-bottom: 0;
     overflow: hidden;
-    border-radius: 50%;
-    /*box-shadow: 0px 0px 10px red;*/
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgb(37, 36, 36);
+    box-shadow: 0px 0px 10px red;
 }
 header img:hover {
     transition: box-shadow 1s ease-in-out;
@@ -81,14 +83,20 @@ body {
     background-color: rgb(51, 48, 48);
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-image: url(../images/graphics/transcircle.svg), url(../images/graphics/smoke.svg);
-    background-size: 100vh, auto;
-    background-position: -33vw 0vh, 65vw 0vh;
-    background-repeat: no-repeat;
+    background-image: url(../images/graphics/transcircle.svg);
+    background-size: contain;
+    background-position: center center, center top;
+    background-repeat: repeat-x;
     background-attachment: fixed;
 }
 .content {
-    letter-spacing: 1.2;
+    background-color: rgb(37, 36, 36);
+    border-radius: 50px;
+    box-shadow:  0px 0px 10px red;
+    margin-top: 30px;
+}
+.content:hover {
+    box-shadow:  0px 0px 10px yellow;
 }
 h2 {
     font-size: 2rem;
@@ -189,11 +197,10 @@ small {
     background-color: rgb(37, 36, 36);
     color: yellow;
     border-radius: 20px;
-    border: 1px solid red;
-    /*box-shadow: 0px 0px 10px red;*/
+    box-shadow: 0px 0px 10px red;
 }
 small:hover {
-    border: 1px solid yellow;
+    box-shadow: 0px 0px 10px yellow;
     color: white;
     /*box-shadow: 0px 0px 10px yellow;*/
     cursor: default;
