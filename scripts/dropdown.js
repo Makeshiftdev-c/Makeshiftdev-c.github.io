@@ -8,7 +8,6 @@ let state = 'closed';
 
 
 dropBtn.addEventListener('click', () => {
-    console.log('fired');
     if (state === 'closed') {
         openIcn.style.transition = 'transform 1s';
         openIcn.style.transform = 'scale(0)';

@@ -26,10 +26,19 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*min-height: 8vh;*/
     max-height: 82px;
     background-color: rgba(36, 39, 35, 0.774);
     font-family: 'Cinzel', serif;
+}
+.main-head {
+    width: 100%;
+    min-height: 82px;
+    max-width: 1366px;
+    padding-top: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .logoandbanner {
@@ -95,7 +104,7 @@ header {
 }
 
 
-
+ /* Simple Media Query for Handheld Devices (Page Header) */
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
@@ -122,6 +131,8 @@ header {
         cursor: pointer;
     }
 }
+  /* End of Breakpoint for Handheld Devices */
+  /* Start of Dropdown Menu Effect */
 .nav-active {
     opacity: 1;
     transform: translateY(0%) scaleY(1);
@@ -138,7 +149,8 @@ header {
         transform: translateX(0px);
     }
 }
-
+ /* End of Dropdown Menu Effect (see also burger.js) */
+ /* Start of Burger Animation */
 .toggle .line-1 {
     transform: rotate(-45deg) translate(-5px,6px);
 }
@@ -148,12 +160,19 @@ header {
 .toggle .line-3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+ /* End of Burger Animation */
 /* End of Header Bar */
 
 /* Body */
+main {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
 .wrapper {
     float: right;
     width: 40%;
+    max-width: 540px;
     margin-right: 20px;
     margin-top: 30px;
     display: flex;
@@ -187,6 +206,7 @@ header {
     word-spacing: 1px;
     opacity: 0;
 }
+ /* start of Dropdown Button */
 .button {
     margin: 5px;
     padding: 0;
@@ -219,7 +239,8 @@ button:hover {
 button:focus { 
     outline: none;
 }
-
+ /* End of Dropdown Button */
+ /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
     .wrapper {
         float: none;
@@ -230,8 +251,16 @@ button:focus {
         width: 90%;
         margin: 20px auto;
     }
+    .topics .box .details .topicontent p {
+        font-size: 0.4rem;
+        margin: 10px 0 0;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 0;
+    }
 }
-
+ /* End of Breakpoint for Handheld Devices */
+ /* Start of Scroll Animation */
 @keyframes scrollFade {
     from {
         opacity: 0;
@@ -242,6 +271,8 @@ button:focus {
         transform: translateY(0px);
     }
 }
+ /* End of Scroll Animation (see dropdown.js for full implementation; see also - Start of Dropdown Button) */
+ /* Start of Project Links */
 .topics {
     width: 100%;
     margin: 50px auto;
@@ -318,11 +349,9 @@ button:focus {
     text-decoration: none;
     color: rgba(228, 238, 228, 1.0);
 }
-/* End of Body */
-
-/* Start of Contact */
+ /* End of Project Links */
+ /* Start of Contact */
 .contact h3 {
-    /*display: inline-block;*/
     text-align: center;
     border: 2px solid rgba(228, 238, 228, 0.774);
     color: rgba(228, 238, 228, 0.774);
@@ -358,4 +387,5 @@ button:focus {
     margin-bottom: -3px;
     opacity: 0;
 }
-/* End of Contact */
+ /* End of Contact */
+/* End of Body */
