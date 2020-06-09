@@ -247,7 +247,8 @@ button:focus {
  /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
     body {
-        width: 100% !important;
+        width: 100%;
+        height: 100%;
         background-image: url(../images/background/backSmall.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -270,17 +271,6 @@ button:focus {
         letter-spacing: 1px;
         word-spacing: 1px;
         padding: 0;
-    }
-}
-@media screen and (max-width: 380px) {
-    body {
-        width: 100% !important;
-        background-image: url(../images/background/backESmall.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        background-attachment: fixed;
     }
 }
  /* End of Breakpoint for Handheld Devices */
