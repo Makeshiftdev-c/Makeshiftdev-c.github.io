@@ -6,20 +6,26 @@
 
 html {
     height: 100%;
-    max-width: 7000px;
-    margin: 0 auto;
-}
-
-body {
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 100% !important;
+    max-width: 7000px;
+    margin: 0 auto;
     background-image: url(../images/background/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     background-attachment: fixed;
+}
+
+body {
+    width: 100% !important;
+    /*background-image: url(../images/background/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;*/
 }
 
 
