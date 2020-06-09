@@ -389,12 +389,16 @@ button:focus {
  /* End of Contact */
  /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
-    body {
-        width: 100%;
+    html {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        max-width: 7000px;
+        margin: 0 auto;
         background-image: url(../images/background/backSmall.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-size: 100vw 100vh;
+        background-size: 100% 100%;
         background-position: center center;
         background-attachment: fixed;
     }
