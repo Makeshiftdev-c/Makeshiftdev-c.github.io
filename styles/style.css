@@ -247,6 +247,9 @@ button:focus {
  /* End of Dropdown Button */
  /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
+    body {
+        background-image: url(../images/background/backSmall.jpg);
+    }
     .wrapper {
         float: none;
         width: 100%;
@@ -262,6 +265,11 @@ button:focus {
         letter-spacing: 1px;
         word-spacing: 1px;
         padding: 0;
+    }
+}
+@media screen and (max-width: 380px) {
+    body {
+        background-image: url(../images/background/backESmall.jpg);
     }
 }
  /* End of Breakpoint for Handheld Devices */
