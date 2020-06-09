@@ -21,6 +21,9 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+.about {
+    background-image: url(../images/background/back3.jpg);
+}
 
 a, button {
     -webkit-tap-highlight-color: transparent;
