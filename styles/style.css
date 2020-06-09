@@ -109,18 +109,11 @@ header {
 @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
-        width: 100%;
-        background-image: url(../images/background/backSmall.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        background-attachment: fixed;
     }
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 100vh;
         top: 82px;
         background-color: rgba(36, 39, 35, 0.774);
         display: flex;
@@ -138,29 +131,13 @@ header {
         display: block;
         cursor: pointer;
     }
-    .wrapper {
-        float: none;
-        width: 100%;
-        margin: 20px auto;
-    }
-    .content {
-        width: 90%;
-        margin: 20px auto;
-    }
-    .topics .box .details .topicontent p {
-        font-size: 0.4rem;
-        margin: 10px 0 0;
-        letter-spacing: 1px;
-        word-spacing: 1px;
-        padding: 0;
-    }
 }
 /* End of Breakpoint for Handheld Devices */
   /* Start of Dropdown Menu Effect */
 .nav-active {
     opacity: 1;
     transform: translateY(0%) scaleY(1);
-    /*z-index: 1;*/
+    z-index: 1;
 }
 
 @keyframes linkFade {
@@ -404,4 +381,33 @@ button:focus {
     opacity: 0;
 }
  /* End of Contact */
+ /* Start of Simple Breakpoint for Phones and Small Tablets */
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        background-image: url(../images/background/backSmall.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .wrapper {
+        float: none;
+        width: 100%;
+        margin: 20px auto;
+    }
+    .content {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .topics .box .details .topicontent p {
+        font-size: 0.4rem;
+        margin: 10px 0 0;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        padding: 0;
+    }
+}
 /* End of Body */
