@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     height: 100%;
     overflow-x: hidden;
@@ -11,7 +10,6 @@ html {
     max-width: 7000px;
     margin: 0 auto;
 }
-
 body {
     /*width: 100%;*/
     overflow-x: hidden;
@@ -21,14 +19,15 @@ body {
     background-position: center center;
     background-attachment: fixed;
 }
+.projects {
+    background-image: url(../images/background/back2.jpg);
+}
 .about {
     background-image: url(../images/background/back3.jpg);
 }
-
 a, button {
     -webkit-tap-highlight-color: transparent;
 }
-
 
 /* Header Bar */
 header {
