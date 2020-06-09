@@ -223,7 +223,7 @@ main {
     border-radius: 50%;
     box-shadow: 0 0 10px black;
     padding: 0;
-    animation: upDown 2s ease infinite;
+    animation: upDown 2s linear infinite;
     transform: scale(1);
     transition: transform 1s ease;
 }
