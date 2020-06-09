@@ -10,22 +10,16 @@ html {
     overflow-y: scroll;
     max-width: 7000px;
     margin: 0 auto;
+}
+
+body {
+    width: 100% !important;
     background-image: url(../images/background/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center center;
     background-attachment: fixed;
-}
-
-body {
-    width: 100% !important;
-    /*background-image: url(../images/background/back.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-attachment: fixed;*/
 }
 
 
@@ -389,19 +383,6 @@ button:focus {
  /* End of Contact */
  /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
-    html {
-        height: 100%;
-        overflow-x: hidden;
-        overflow-y: scroll;
-        max-width: 7000px;
-        margin: 0 auto;
-        background-image: url(../images/background/backSmall.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        background-attachment: fixed;
-    }
     .wrapper {
         float: none;
         width: 100%;
