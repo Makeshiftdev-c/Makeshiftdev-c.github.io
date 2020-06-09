@@ -13,10 +13,11 @@ html {
 }
 
 body {
-    width: 100% !important;
+    /*width: 100%;*/
+    overflow-x: hidden;
     background-image: url(../images/background/back.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -106,9 +107,9 @@ header {
 }
 /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
-    body {
+    /*body {
         overflow-x: hidden;
-    }
+    }*/
     .nav-links {
         position: absolute;
         right: 0px;
