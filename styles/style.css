@@ -30,26 +30,6 @@ a, button {
     -webkit-tap-highlight-color: transparent;
 }
 
-/* For IOS devices (don't support webp) */
-@supports (-webkit-touch-callout: none) {
-    body {
-        /*width: 100%;*/
-        overflow-x: hidden;
-        background-color: gray;
-        background-image: url(../images/background/back.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center center;
-        background-attachment: fixed;
-    }
-    .projects {
-        background-image: url(../images/background/back2.jpg);
-    }
-    .about {
-        background-image: url(../images/background/back3.jpg);
-    }
-/* End of Query*/
-
 /* Header Bar */
 header {
     width: 100%;
@@ -133,6 +113,19 @@ header {
 }
 /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
+    body {
+        background-image: url(../images/background/back.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    .projects {
+        background-image: url(../images/background/back2.jpg);
+    }
+    .about {
+        background-image: url(../images/background/back3.jpg);
+    }
     html {
         overflow: hidden;
     }
