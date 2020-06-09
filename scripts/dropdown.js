@@ -1,6 +1,7 @@
 const content = document.querySelector('.content');
 const contentEls = document.querySelectorAll('.content h2, .content p, .contact *');
 const linkBoxes = document.querySelectorAll('.content .box');
+const btnHolder = document.querySelector('.dropdown');
 const dropBtn = document.querySelector('#display');
 const openIcn = document.querySelector('#open');
 const closeIcn = document.querySelector('#close');
@@ -9,6 +10,7 @@ let state = 'closed';
 
 dropBtn.addEventListener('click', () => {
     if (state === 'closed') {
+        btnHolder.style.animation = 'none';
         openIcn.style.transition = 'transform 1s';
         openIcn.style.transform = 'scale(0)';
         closeIcn.style.transition = 'transform 1s';
