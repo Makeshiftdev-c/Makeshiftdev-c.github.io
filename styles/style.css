@@ -22,6 +22,10 @@ body {
     background-attachment: fixed;
 }
 
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 
 /* Header Bar */
 header {
@@ -96,7 +100,6 @@ header {
     display: none;
     width: 0%;
 }
-
 .burger div{
     width: 25px;
     height: 3px;
@@ -141,8 +144,8 @@ header {
         cursor: pointer;
     }
 }
-/* End of Breakpoint for Handheld Devices */
-  /* Start of Dropdown Menu Effect */
+ /* End of Breakpoint for Handheld Devices */
+  /* Start of Dropdown Menu Effect (Elements effect apply to set to 0 opacity) */
 .nav-active {
     opacity: 1;
     transform: translateY(0%) scaleY(1);
@@ -217,7 +220,7 @@ main {
     opacity: 0;
 }
  /* start of Dropdown Button */
-.button {
+.dropdownButton {
     margin: 5px;
     padding: 0;
     height: 32px;
@@ -248,7 +251,7 @@ button:hover {
     cursor: pointer;
 }
 button:focus { 
-    outline: none;
+    outline-width: 0px;
 }
  /* End of Dropdown Button */
  /* Start of Scroll Animation */
@@ -390,7 +393,7 @@ button:focus {
     opacity: 0;
 }
  /* End of Contact */
- /* Start of Simple Breakpoint for Phones and Small Tablets */
+ /* Start of Simple Breakpoint for Phones and Small Tablets for Content */
 @media screen and (max-width: 768px) {
     .wrapper {
         float: none;
@@ -409,4 +412,5 @@ button:focus {
         padding: 0;
     }
 }
+ /* End of Breakpoint for Content */
 /* End of Body */
