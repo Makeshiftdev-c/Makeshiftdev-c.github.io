@@ -6,13 +6,13 @@
 
 html {
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: scroll;
     max-width: 7000px;
     margin: 0 auto;
 }
 
 body {
+    overflow-x: hidden;
+    overflow-y: scroll;
     width: 100% !important;
     background-image: url(../images/background/back.jpg);
     background-size: cover;
@@ -384,7 +384,6 @@ button:focus {
  /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
     body {
-        overflow-x: hidden;
         width: 100%;
         background-image: url(../images/background/backSmall.jpg);
         background-size: cover;
