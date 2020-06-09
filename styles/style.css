@@ -107,9 +107,18 @@ header {
 }
 /* Start of Simple Breakpoint for Phones and Small Tablets */
 @media screen and (max-width: 768px) {
-    /*body {
+    html {
+        overflow: hidden;
+    }
+    body {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%; 
         overflow-x: hidden;
-    }*/
+    }
     .nav-links {
         position: absolute;
         right: 0px;
