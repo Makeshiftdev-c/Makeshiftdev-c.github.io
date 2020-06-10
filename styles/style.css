@@ -130,7 +130,7 @@ header {
     html {
         overflow: hidden !important;
         height: 100% !important;
-        -webkit-overflow-scrolling: touch !important;
+        overscroll-behavior: none;
     }
     body {
         width: 100%;
@@ -141,6 +141,7 @@ header {
         top: 0;
         width: 100%;
         overflow-x: hidden;
+        overscroll-behavior: contain;
         -webkit-overflow-scrolling: touch !important;
     }
     .nav-links {
