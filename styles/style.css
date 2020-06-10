@@ -9,6 +9,7 @@ html {
     overflow-y: scroll;
     max-width: 7000px;
     margin: 0 auto;
+    scroll-behavior: smooth;
 }
 body {
     /*width: 100%;*/
@@ -127,17 +128,11 @@ header {
         background-image: url(../images/background/back3.jpg);
     }
     html {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: 0;
-        width: 100%;
-        overflow-x: hidden;
-        overflow-y: scroll;
+        overflow: hidden !important;
+        height: 100% !important;
+        -webkit-overflow-scrolling: touch !important;
     }
     body {
-        height: 100%;
         width: 100%;
         position: absolute;
         bottom: 0;
@@ -146,11 +141,12 @@ header {
         top: 0;
         width: 100%;
         overflow-x: hidden;
+        -webkit-overflow-scrolling: touch !important;
     }
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 100vh;
+        height: calc(100% - 82px);
         top: 82px;
         background-color: rgba(36, 39, 35, 0.774);
         display: flex;
