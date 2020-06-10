@@ -127,15 +127,24 @@ header {
         background-image: url(../images/background/back3.jpg);
     }
     html {
-        overflow: hidden;
-    }
-    body {
         position: absolute;
         bottom: 0;
         left: 0;
         right: 0;
         top: 0;
-        width: 100%; 
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    body {
+        height: 100%;
+        width: 100%;
+        /*position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: 100%;*/ 
         overflow-x: hidden;
     }
     .nav-links {
