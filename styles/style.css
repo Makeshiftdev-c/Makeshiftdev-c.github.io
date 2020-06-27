@@ -40,6 +40,7 @@ header {
     max-height: 82px;
     background-color: rgba(36, 39, 35, 0.774);
     font-family: 'Cinzel', serif;
+    box-shadow: 0px 0px 10px black;
 }
 .main-head {
     width: 100vw;
@@ -71,7 +72,7 @@ header {
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     margin-left: 20px;
-    border: 1px solid rgba(228, 238, 228, 0.774);
+    border: 2px solid rgba(228, 238, 228, 0.774);
     box-shadow: 0px -1px 5px rgba(228, 238, 228, 0.7);
     min-height: 82px;
     min-width: 82px;
@@ -227,6 +228,7 @@ main {
     margin-top: 30px;
     color: rgba(228, 238, 228, 0.774);
     overflow: hidden;
+    box-shadow: 0px 0px 5px black !important;
 }
 .content h2 {
     text-align: center;
